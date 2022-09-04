@@ -17,7 +17,7 @@ ConfigDict = tx.TypedDict(
 )
 
 CONFIG_B: ConfigDict = {
-    "dropout": 0.1,
+    "dropout": 0,
     "mlp_dim": 3072,
     "num_heads": 12,
     "num_layers": 12,
